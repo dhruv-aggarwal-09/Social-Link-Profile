@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+    margin: 0 15rem;
+}
+.container{
+    background-color: rgb(39, 38, 38);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-box{
+    background-color: rgb(53, 52, 52);
+    height: 500px;
+    width: 400px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+.profile-box img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    border-radius: 50%;
+}
+.profile-box h3{
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 0;
+}
+.profile-box h4{
+    color: rgb(135, 222, 4);
+    font-size: 15px;
+}
+.profile-box p{
+    color:beige;
+    font-size: 16px;
+}
+.button{
+    background-color: #2e2e2e;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 10px 0;
+}
